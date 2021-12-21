@@ -59,7 +59,7 @@ Variables
 Global Styles
 ===============
 */
-html {
+html, body{
   scroll-behavior: smooth;
 }
 *,
@@ -301,7 +301,7 @@ nav {
 header {
   min-height: 100vh;
   background: linear-gradient(rgba(63, 208, 212, 0.5), rgba(0, 0, 0, 0.7)),
-    url(./hero-bcg.jpeg) center/cover no-repeat;
+    url(./hero-bcg.jpg) center/cover no-repeat;
 }
 .banner {
   min-height: 100vh;
@@ -333,7 +333,7 @@ header {
 .title span {
   color: var(--clr-secondary);
 }
-#about,
+#menu,
 #services,
 #tours {
   height: 80vh;
